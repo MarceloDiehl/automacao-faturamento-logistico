@@ -1,0 +1,43 @@
+<div class="container-configuracao d-flex justify-content-center pt-5" style="min-height: 80vh;">
+  <div class="login-wrapper w-100" style="max-width: 350px;">
+
+    <div class="mb-5 border-start border-4 border-secondary ps-3">
+      <h2 class="h5 fw-bold mb-0 text-dark text-uppercase text" style="letter-spacing: 1px;">AUTENTICAÇÃO</h2>
+      <small class="text-muted text-uppercase" style="font-size: 0.7rem;">Configuração Interna do Sistema</small>
+    </div>
+
+    <form id="form-login">
+      <div class="mb-4">
+        <label for="usuario" class="form-label small text-muted text-uppercase fw-semibold">Identificação</label>
+        <input type="text" id="usuario" class="form-control form-control-custom" placeholder="Usuário de rede" required>
+      </div>
+
+      <div class="mb-4">
+        <label for="senha" class="form-label small text-muted text-uppercase fw-semibold">Chave de Acesso</label>
+        <div class="position-relative">
+          <input type="password" id="senha" class="form-control form-control-custom" placeholder="••••••••" required>
+          <button type="button" class="btn-toggle-pass" id="toggle-senha">
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z" />
+              <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z" />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div id="login-erro" class="d-none animate__animated animate__headShake">
+        <p class="text-danger small mb-3">
+          Credenciais inválidas. Tente novamente.
+        </p>
+      </div>
+
+      <button type="button" onclick="efetuarLogin()" class="btn btn-secondary w-100 fw-bold py-2 text-uppercase d-flex align-items-center justify-content-center gap-2" style="font-size: 0.8rem; border-radius: 4px;">
+        <span>Entrar no Sistema</span>
+        <svg width="14" height="14" fill="currentColor" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z" />
+          <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z" />
+        </svg>
+      </button>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,380 @@
+<section class="paragrafo-configuracao">
+    <div class="container-titulo">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="titulo-configuracao">Atualização de Valores por Serviços</h3>
+                </div>
+                <div class="col-md-12 justify-content-start">
+                    <p class="p-configuracao">Módulo destinado à atualização dos valores de serviços de logística contratados, permitindo
+                        o ajuste
+                        de preços por região de atuação.</p>
+                    <p class="p-configuracao" style="font-size: 12px;">Exemplo de formato: 125.00 (use apenas números e ponto como
+                        separador
+                        decimal).</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="container-configuracao">
+    <div class="container-atualizacao">
+        <form>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-2 ">
+                            <label class="form-label-atualizar"><b>Instalação</b></label>
+                            <div class="mb-1">
+                                <label class="form-label">Noroeste</label>
+                                <input type="text" inputmode="decimal"
+                                       pattern="^\d+(\.\d{1,2})?$" class="form-control form-control-sm text-center"
+                                       style="font-size: 12px;" id="instalacao-noroeste">
+                            </div>
+                            <div class="mb-1">
+                                <label class="form-label">Nordeste</label>
+                                <input type="text" inputmode="decimal"
+                                       pattern="^\d+(\.\d{1,2})?$" class="form-control form-control-sm text-center"
+                                       style="font-size: 12px" id="instalacao-nordeste">
+                            </div>
+                            <div class="mb-1">
+                                <label class="form-label">Centro Ocidental</label>
+                                <input type="text" inputmode="decimal"
+                                       pattern="^\d+(\.\d{1,2})?$" class="form-control form-control-sm text-center"
+                                       style="font-size: 12px" id="instalacao-centro-ocidental">
+                            </div>
+                            <div class="mb-1">
+                                <label class="form-label">Centro Oriental</label>
+                                <input type="text" inputmode="decimal"
+                                       pattern="^\d+(\.\d{1,2})?$" class="form-control form-control-sm text-center"
+                                       style="font-size: 12px" id="instalacao-centro-oriental">
+                            </div>
+                            <div class="mb-1">
+                                <label class="form-label">Metropolitana</label>
+                                <input type="text" inputmode="decimal"
+                                       pattern="^\d+(\.\d{1,2})?$" class="form-control form-control-sm text-center"
+                                       style="font-size: 12px" id="instalacao-metropolitana">
+                            </div>
+                            <div class="mb-1">
+                                <label class="form-label">Sudeste</label>
+                                <input type="text" inputmode="decimal"
+                                       pattern="^\d+(\.\d{1,2})?$" class="form-control form-control-sm text-center"
+                                       style="font-size: 12px" id="instalacao-sudeste">
+                            </div>
+                            <div class="mb-1">
+                                <label class="form-label">Sudoeste</label>
+                                <input type="text" inputmode="decimal"
+                                       pattern="^\d+(\.\d{1,2})?$" class="form-control form-control-sm text-center"
+                                       style="font-size: 12px" id="instalacao-sudoeste">
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <label class="form-label-atualizar"><b>Rollout AC</b></label>
+                            <div class="mb-1">
+                                <label class="form-label">Noroeste</label>
+                                <input type="text" inputmode="decimal"
+                                       pattern="^\d+(\.\d{1,2})?$" class="form-control form-control-sm text-center"
+                                       style="font-size: 12px;" id="rolloutac-noroeste">
+                            </div>
+                            <div class="mb-1">
+                                <label class="form-label">Nordeste</label>
+                                <input type="text" inputmode="decimal"
+                                       pattern="^\d+(\.\d{1,2})?$" class="form-control form-control-sm text-center"
+                                       style="font-size: 12px" id="rolloutac-nordeste">
+                            </div>
+                            <div class="mb-1">
+                                <label class="form-label">Centro Ocidental</label>
+                                <input type="text" inputmode="decimal"
+                                       pattern="^\d+(\.\d{1,2})?$" class="form-control form-control-sm text-center"
+                                       style="font-size: 12px" id="rolloutac-centro-ocidental">
+                            </div>
+                            <div class="mb-1">
+                                <label class="form-label">Centro Oriental</label>
+                                <input type="text" inputmode="decimal"
+                                       pattern="^\d+(\.\d{1,2})?$" class="form-control form-control-sm text-center"
+                                       style="font-size: 12px" id="rolloutac-centro-oriental">
+                            </div>
+                            <div class="mb-1">
+                                <label class="form-label">Metropolitana</label>
+                                <input type="text" inputmode="decimal"
+                                       pattern="^\d+(\.\d{1,2})?$" class="form-control form-control-sm text-center"
+                                       style="font-size: 12px" id="rolloutac-metropolitana">
+                            </div>
+                            <div class="mb-1">
+                                <label class="form-label">Sudeste</label>
+                                <input type="text" inputmode="decimal"
+                                       pattern="^\d+(\.\d{1,2})?$" class="form-control form-control-sm text-center"
+                                       style="font-size: 12px" id="rolloutac-sudeste">
+                            </div>
+                            <div class="mb-1">
+                                <label class="form-label">Sudoeste</label>
+                                <input type="text" inputmode="decimal"
+                                       pattern="^\d+(\.\d{1,2})?$" class="form-control form-control-sm text-center"
+                                       style="font-size: 12px" id="rolloutac-sudoeste">
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <label class="form-label-atualizar"><b>Rollout ABC</b></label>
+                            <div class="mb-1">
+                                <label class="form-label">Noroeste</label>
+                                <input type="text" inputmode="decimal"
+                                       pattern="^\d+(\.\d{1,2})?$" class="form-control form-control-sm text-center"
+                                       style="font-size: 12px;" id="rolloutabc-noroeste">
+                            </div>
+                            <div class="mb-1">
+                                <label class="form-label">Nordeste</label>
+                                <input type="text" inputmode="decimal"
+                                       pattern="^\d+(\.\d{1,2})?$" class="form-control form-control-sm text-center"
+                                       style="font-size: 12px" id="rolloutabc-nordeste">
+                            </div>
+                            <div class="mb-1">
+                                <label class="form-label">Centro Ocidental</label>
+                                <input type="text" inputmode="decimal"
+                                       pattern="^\d+(\.\d{1,2})?$" class="form-control form-control-sm text-center"
+                                       style="font-size: 12px" id="rolloutabc-centro-ocidental">
+                            </div>
+                            <div class="mb-1">
+                                <label class="form-label">Centro Oriental</label>
+                                <input type="text" inputmode="decimal"
+                                       pattern="^\d+(\.\d{1,2})?$" class="form-control form-control-sm text-center"
+                                       style="font-size: 12px" id="rolloutabc-centro-oriental">
+                            </div>
+                            <div class="mb-1">
+                                <label class="form-label">Metropolitana</label>
+                                <input type="text" inputmode="decimal"
+                                       pattern="^\d+(\.\d{1,2})?$" class="form-control form-control-sm text-center"
+                                       style="font-size: 12px" id="rolloutabc-metropolitana">
+                            </div>
+                            <div class="mb-1">
+                                <label class="form-label">Sudeste</label>
+                                <input type="text" inputmode="decimal"
+                                       pattern="^\d+(\.\d{1,2})?$" class="form-control form-control-sm text-center"
+                                       style="font-size: 12px" id="rolloutabc-sudeste">
+                            </div>
+                            <div class="mb-1">
+                                <label class="form-label">Sudoeste</label>
+                                <input type="text" inputmode="decimal"
+                                       pattern="^\d+(\.\d{1,2})?$" class="form-control form-control-sm text-center"
+                                       style="font-size: 12px" id="rolloutabc-sudoeste">
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <label class="form-label-atualizar"><b>Desinstalação</b></label>
+                            <div class="mb-1">
+                                <label class="form-label">Noroeste</label>
+                                <input type="text" inputmode="decimal"
+                                       pattern="^\d+(\.\d{1,2})?$" class="form-control form-control-sm text-center"
+                                       style="font-size: 12px;" id="desinstalacao-noroeste">
+                            </div>
+                            <div class="mb-1">
+                                <label class="form-label">Nordeste</label>
+                                <input type="text" inputmode="decimal"
+                                       pattern="^\d+(\.\d{1,2})?$" class="form-control form-control-sm text-center"
+                                       style="font-size: 12px" id="desinstalacao-nordeste">
+                            </div>
+                            <div class="mb-1">
+                                <label class="form-label">Centro Ocidental</label>
+                                <input type="text" inputmode="decimal"
+                                       pattern="^\d+(\.\d{1,2})?$" class="form-control form-control-sm text-center"
+                                       style="font-size: 12px" id="desinstalacao-centro-ocidental">
+                            </div>
+                            <div class="mb-1">
+                                <label class="form-label">Centro Oriental</label>
+                                <input type="text" inputmode="decimal"
+                                       pattern="^\d+(\.\d{1,2})?$" class="form-control form-control-sm text-center"
+                                       style="font-size: 12px" id="desinstalacao-centro-oriental">
+                            </div>
+                            <div class="mb-1">
+                                <label class="form-label">Metropolitana</label>
+                                <input type="text" inputmode="decimal"
+                                       pattern="^\d+(\.\d{1,2})?$" class="form-control form-control-sm text-center"
+                                       style="font-size: 12px" id="desinstalacao-metropolitana">
+                            </div>
+                            <div class="mb-1">
+                                <label class="form-label">Sudeste</label>
+                                <input type="text" inputmode="decimal"
+                                       pattern="^\d+(\.\d{1,2})?$" class="form-control form-control-sm text-center"
+                                       style="font-size: 12px" id="desinstalacao-sudeste">
+                            </div>
+                            <div class="mb-1">
+                                <label class="form-label">Sudoeste</label>
+                                <input type="text" inputmode="decimal"
+                                       pattern="^\d+(\.\d{1,2})?$" class="form-control form-control-sm text-center"
+                                       style="font-size: 12px" id="desinstalacao-sudoeste">
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <label class="form-label-atualizar"><b>Mudança de Local</b></label>
+                            <div class="mb-1">
+                                <label class="form-label">Noroeste</label>
+                                <input type="text" inputmode="decimal"
+                                       pattern="^\d+(\.\d{1,2})?$" class="form-control form-control-sm text-center"
+                                       style="font-size: 12px;" id="ml-noroeste">
+                            </div>
+                            <div class="mb-1">
+                                <label class="form-label">Nordeste</label>
+                                <input type="text" inputmode="decimal"
+                                       pattern="^\d+(\.\d{1,2})?$" class="form-control form-control-sm text-center"
+                                       style="font-size: 12px" id="ml-nordeste">
+                            </div>
+                            <div class="mb-1">
+                                <label class="form-label">Centro Ocidental</label>
+                                <input type="text" inputmode="decimal"
+                                       pattern="^\d+(\.\d{1,2})?$" class="form-control form-control-sm text-center"
+                                       style="font-size: 12px" id="ml-centro-ocidental">
+                            </div>
+                            <div class="mb-1">
+                                <label class="form-label">Centro Oriental</label>
+                                <input type="text" inputmode="decimal"
+                                       pattern="^\d+(\.\d{1,2})?$" class="form-control form-control-sm text-center"
+                                       style="font-size: 12px" id="ml-centro-oriental">
+                            </div>
+                            <div class="mb-1">
+                                <label class="form-label">Metropolitana</label>
+                                <input type="text" inputmode="decimal"
+                                       pattern="^\d+(\.\d{1,2})?$" class="form-control form-control-sm text-center"
+                                       style="font-size: 12px" id="ml-metropolitana">
+                            </div>
+                            <div class="mb-1">
+                                <label class="form-label">Sudeste</label>
+                                <input type="text" inputmode="decimal"
+                                       pattern="^\d+(\.\d{1,2})?$" class="form-control form-control-sm text-center"
+                                       style="font-size: 12px" id="ml-sudeste">
+                            </div>
+                            <div class="mb-1">
+                                <label class="form-label">Sudoeste</label>
+                                <input type="text" inputmode="decimal"
+                                       pattern="^\d+(\.\d{1,2})?$" class="form-control form-control-sm text-center"
+                                       style="font-size: 12px" id="ml-sudoeste">
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <label class="form-label-atualizar"><b>Mudança de Prédio</b></label>
+                            <div class="mb-1">
+                                <label class="form-label">Noroeste</label>
+                                <input type="text" inputmode="decimal"
+                                       pattern="^\d+(\.\d{1,2})?$" class="form-control form-control-sm text-center"
+                                       style="font-size: 12px;" id="mp-noroeste">
+                            </div>
+                            <div class="mb-1">
+                                <label class="form-label">Nordeste</label>
+                                <input type="text" class="form-control form-control-sm text-center"
+                                       style="font-size: 12px" id="mp-nordeste">
+                            </div>
+                            <div class="mb-1">
+                                <label class="form-label">Centro Ocidental</label>
+                                <input type="text" class="form-control form-control-sm text-center"
+                                       style="font-size: 12px" id="mp-centro-ocidental">
+                            </div>
+                            <div class="mb-1">
+                                <label class="form-label">Centro Oriental</label>
+                                <input type="text" class="form-control form-control-sm text-center"
+                                       style="font-size: 12px" id="mp-centro-oriental">
+                            </div>
+                            <div class="mb-1">
+                                <label class="form-label">Metropolitana</label>
+                                <input type="text" class="form-control form-control-sm text-center"
+                                       style="font-size: 12px" id="mp-metropolitana">
+                            </div>
+                            <div class="mb-1">
+                                <label class="form-label">Sudeste</label>
+                                <input type="text" class="form-control form-control-sm text-center"
+                                       style="font-size: 12px" id="mp-sudeste">
+                            </div>
+                            <div class="mb-1">
+                                <label class="form-label">Sudoeste</label>
+                                <input type="text" class="form-control form-control-sm text-center"
+                                       style="font-size: 12px" id="mp-sudoeste">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row justify-content-end">
+                        <div class="col-md-2">
+                            <button type="button" onclick="window.restaurarValores()"
+                                    class="btn btn-secondary w-100 fw-bold py-2 text-uppercase d-flex align-items-center justify-content-center gap-2"
+                                    style="font-size: 0.8rem; border-radius: 4px;">
+                                <span>Desfazer</span>
+                            </button>
+                        </div>
+                        <div class="col-md-2">
+                            <button type="button" onclick="window.limparFormularioAdmin()"
+                                    class="btn btn-secondary w-100 fw-bold py-2 text-uppercase d-flex align-items-center justify-content-center gap-2"
+                                    style="font-size: 0.8rem; border-radius: 4px;">
+                                <span>Limpar</span>
+                            </button>
+                        </div>
+                        <div class="col-md-2">
+                            <button type="button" onclick="configurarBotaoAtualizar(event)"
+                                    class="btn btn-secondary w-100 fw-bold py-2 text-uppercase d-flex align-items-center justify-content-center gap-2"
+                                    style="font-size: 0.8rem; border-radius: 4px;">
+                                <span>Atualizar</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<section class="paragrafo-configuracao">
+    <div class="container-titulo">
+        <div class="col-md-12">
+            <div class="row justify-content-end ">
+                <div class="col-md-12">
+                    <h3 class="titulo-configuracao ">Atualização de Manuais</h3>
+                    <p class="p-configuracao">Utilize este módulo para gerenciar os arquivos PDF disponibilizados na
+                        página
+                        "Manuals".
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="container-configuracao">
+    <div class="col-md-12">
+        <div class="row">
+
+            <div class="col-md-6 mb-3">
+                <label for="file-manual-acionamento" class="form-label fw-bold">Manual Acionamentos</label>
+                <div class="input-group">
+                    <input type="file"
+                           class="form-control form-control-sm"
+                           id="file-manual-acionamento"
+                           aria-label="Upload">
+
+                    <button class="btn btn-light btn-sm fw-bold border"
+                            type="button"
+                            onclick="window.uploadManual('file-manual-acionamento', 'acionamento')">
+                        ENVIAR
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-3">
+                <label for="file-manual-grp" class="form-label fw-bold">Manual GRP</label>
+                <div class="input-group">
+                    <input type="file"
+                           class="form-control form-control-sm"
+                           id="file-manual-grp"
+                           aria-label="Upload">
+
+                    <button class="btn btn-light btn-sm fw-bold border"
+                            type="button"
+                            onclick="window.uploadManual('file-manual-grp', 'grp')">
+                        ENVIAR
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
