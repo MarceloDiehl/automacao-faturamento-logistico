@@ -1,4 +1,4 @@
-# Calculadora de Serviços CDS (DITIC-DSUP)
+# Sistema de Automação de Faturamento Logístico - TJRS
 
 ## Visão geral
 
@@ -28,7 +28,7 @@ A aplicação foi sugerida e desenvolvida integralmente por Marcelo Diehl, estag
 
 - Backend: Java 17 com Spring Boot
 - Frontend: HTML5, CSS3 (Bootstrap 5.3) e JavaScript
-- Banco de Dados: MySQL
+- Banco de Dados: MySQL - SQL Relacional
 - Gerenciador de Dependências: Maven
 
 ---
@@ -197,6 +197,20 @@ Disponíveis no terminal iniciado pelo arquivo .bat.
 - Estrutura simples e de fácil manutenção
 
 ---
+
+## Demonstração
+
+<p align="center">
+  <img src="demo/Tela_inicial.gif" alt="Demonstração da Calculadora - Tela Inicial" width="100%">
+</p>
+
+<p align="center">
+  <img src="demo/Tela_Manual.gif" alt="Demonstração da Página de Contrato e Manuais" width="100%">
+</p>
+
+<p align="center">
+  <img src="demo/Tela_Manual_Login.gif" alt="Demonstração da Página de Login e de Atualização" width="100%">
+</p>
 
 ## Licença
 
